@@ -52,8 +52,9 @@ view: network_performance {
     filters: [Time: "2022-02-02 12:00:00 to 2022-02-10 14:00:00"]
   }
 
-  measure: flat_line {
+  measure: trend_deviation {
     sql: ((${5_day_average} - ${tot_average}) / ${tot_average} ) ;;
+    type: number
     value_format: "#.00%"
   }
 
