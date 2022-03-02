@@ -33,3 +33,6 @@ explore: network_performance {
 explore: forecast_performance {
   view_name: forecast_performance
 }
+explore: multiple_forecast {
+  view_name: multiple_forecast
+}
