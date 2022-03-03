@@ -5,4 +5,4 @@
 LookML code creates a dahsbord for monitoring and forecasting of Network performance. Some measurements and
 alert thresholds are defined within the dashboards. Three raw data tables are used to create explores.
 
-Created by: Henrik Warfvinge
+Created by: Henrik Warfvinge, Customer Engineer
